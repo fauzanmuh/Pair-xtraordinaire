@@ -1,6 +1,5 @@
 import random
 
-# Daftar kosakata: {kata asing: arti dalam bahasa Indonesia}
 vocabulary = {
     "hello": "halo",
     "goodbye": "selamat tinggal",
