@@ -2,13 +2,13 @@ import turtle
 
 # Setup layar
 screen = turtle.Screen()
-screen.bgcolor("white")
+screen.bgcolor("black")
 
 # Setup pen
 pen = turtle.Turtle()
 pen.shape("turtle")
 pen.speed(10)
-pen.color("red")
+pen.color("white")
 
 # Fungsi untuk menggambar kelopak bunga
 def draw_petal():
@@ -29,7 +29,7 @@ pen.setposition(0, -100)  # Menempatkan turtle ke posisi yang lebih baik
 pen.down()
 draw_flower()
 
-# Menyembunyikan turtle setelah selesai menggambar
+# Hide turtle setelah selesai menggambar
 pen.hideturtle()
 
 # Menunggu untuk menutup layar
